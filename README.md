@@ -1,4 +1,10 @@
 # C++ Linux HTTP Proxy and Cache 
+
+[![Twitter Badge](https://img.shields.io/badge/chat-twitter-blue.svg)](https://twitter.com/ArrayLikeObj)
+[![GitHub license](https://img.shields.io/github/license/ethanny2/linux-http-proxy)](https://github.com/ethanny2/linux-http-proxy/blob/master/LICENSE)
+![Simple Diagram](https://www.techcoil.com/blog/wp-content/uploads/client-to-proxy-server-to-remote-server-communication.gif "HTTP proxy")
+
+
 Uses HTTP proxy to get resources from a client's HTTP GET request. Responses are cached internally in the program
 and the size of the cache is specified as a command line arguement. Once the cache size is too large to accmodate
 more entries it evicts previous entries via the LRU scheme. 
